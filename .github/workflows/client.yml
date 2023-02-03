@@ -31,6 +31,6 @@ jobs:
         run: |
           aws s3 sync \
             --region ap-northeast-2 \
-            build s3://fe-47-observant0120-s3.s3-website.ap-northeast-2.amazonaws.com \
+            build s3://fe-47-observant0120 \
             --delete
-        working-directory: ./my-agora-states-client
+        working-directory: './my-agora-states-client'
